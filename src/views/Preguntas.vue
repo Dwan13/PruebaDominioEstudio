@@ -124,6 +124,7 @@ export default {
   border-color: #fff;
 }
 .SelMultiple{
+
   padding-top: 30px;
   padding-left: 300px;
   font-size:70%;

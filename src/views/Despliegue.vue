@@ -122,6 +122,7 @@ clase.`
 <style scoped>
 #cartas{
   padding: 30px 300px;
+  
 }
 #cartas p{
 color: #000;

@@ -26,4 +26,5 @@ text-align: center;
   width: 10%;
   text-align: left;
 }
+
 </style>

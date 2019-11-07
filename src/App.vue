@@ -39,7 +39,7 @@ export default {
 
 </script>
 
-<style>
+<style media="screen">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -95,4 +95,29 @@ p{
   top: 50%;
   left: 3%;
 }
+@media screen and (min-width: 780px) and (max-width: 1040px) {
+.zoomIn{
+  font-size: 2.0rem;
+}
+.seguir{
+  top:20%;
+}
+}
+@media screen and (min-width: 481px) and (max-width: 781px) {
+  .zoomIn{
+    font-size: 1.8rem;
+  }
+  .seguir{
+    top:19%;
+  }
+
+}@media screen and (max-width: 480px) {
+  .zoomIn{
+    font-size: 1.1rem;
+  }
+  .seguir{
+    top:18%;
+  }
+}
+
 </style>
